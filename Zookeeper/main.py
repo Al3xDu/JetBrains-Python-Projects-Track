@@ -1,4 +1,4 @@
-from Zookeeper import animal_printer as pr
+import animal_printer as pr
 import sys
 
 
@@ -9,7 +9,8 @@ def main():
         if habitat_number == "exit":
             print("See you later!")
             sys.exit(0)
-        print(pr.animal_list[int(habitat_number)])
+        if 6 > int(habitat_number) > 0:
+            print(pr.animal_list[int(habitat_number)])
         print("---")
         print("You've reached the end of the program. To check another habitat, please restart the watcher.")
 
