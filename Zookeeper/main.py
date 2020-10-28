@@ -1,6 +1,8 @@
 import animal_printer as pr
 import sys
 
+from utils_printer import print_hi_to_this_project
+
 
 def main():
     while True:
@@ -16,4 +18,5 @@ def main():
 
 
 if __name__ == '__main__':
+    print_hi_to_this_project()
     main()
