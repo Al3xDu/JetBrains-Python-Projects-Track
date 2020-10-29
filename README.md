@@ -4,3 +4,4 @@
 
 ### Projects resolved:
 #### 1. Zookeeper
+#### 1. LoanCalculator
